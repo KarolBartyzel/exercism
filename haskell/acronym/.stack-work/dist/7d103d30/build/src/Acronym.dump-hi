@@ -1,0 +1,85 @@
+
+==================== FINAL INTERFACE ====================
+2019-07-04 07:09:39.8523658 UTC
+
+interface acronym-1.6.0.10-FtwZHG2KoJHLvDk1YxaJaQ:Acronym 8043
+  interface hash: 164b1d3a89f1aa576079a667f62bb25a
+  ABI hash: 0c189eb60467dda9bf98f39f1c7843d9
+  export-list hash: c1a67b063c2bf9d313b0a44f0d656521
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7a80f89ac9a7322bfa4d57456e0d5baa
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Acronym.abbreviate
+module dependencies:
+package dependencies: array-0.5.2.0 base-4.11.1.0* binary-0.8.5.1
+                      bytestring-0.10.8.2 containers-0.5.11.0 deepseq-1.4.3.0
+                      ghc-prim-0.5.2.0 integer-gmp-1.0.2.0 text-1.2.3.0*
+orphans: text-1.2.3.0:Data.Text binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.0:Data.Text.Show base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Complex base-4.11.1.0:Data.Functor.Compose
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         text-1.2.3.0:Data.Text
+import  -/  base-4.11.1.0:Data.Char c550369827d719df8be8fb1e8cd699c1
+import  -/  base-4.11.1.0:Data.Foldable 6cf3e918f22d03c0870804f05cd183d1
+import  -/  base-4.11.1.0:Data.OldList 3987872d5de68d40c22cd1c30825ad08
+import  -/  base-4.11.1.0:GHC.Base b7dd14d8fe8d606dde5678ea6b0575e9
+import  -/  base-4.11.1.0:GHC.List 95910b50fba2204d1a3364fe070ebf2b
+import  -/  base-4.11.1.0:GHC.Unicode 875b8e8d21ca0bd8abbb7bede4488443
+import  -/  base-4.11.1.0:Prelude aca391812f777207b15d62bb5b9feb63
+import  -/  ghc-prim-0.5.2.0:GHC.Classes f7d67fd97d5a20e9252c9597d1aa387b
+import  -/  text-1.2.3.0:Data.Text c0e21f1d8acb5250a7f89b5dc0e8964e
+e6bb58d25a29286eb58eb310a2b5c95c
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Acronym.$trModule3
+                   Acronym.$trModule1) -}
+c43774c3b12cfd6821f133dda19b5163
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Acronym.$trModule2) -}
+cc1c4039cfa3cab5c6784cf6f458ec2b
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Acronym"#) -}
+6d3e92d7d0126354d5ff3b888dfa8222
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Acronym.$trModule4) -}
+dfc7db696f6de9ecbf7c1c735daf7dbe
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("acronym-1.6.0.10-FtwZHG2KoJHLvDk1YxaJaQ"#) -}
+70b15c24036ee33a4819e95eb75649ae
+  abbreviate :: GHC.Base.String -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (x :: GHC.Base.String) -> Acronym.abbreviate_go x) -}
+a71203ddd8b22640ccdb166964d1527a
+  abbreviate_go :: [GHC.Types.Char] -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
